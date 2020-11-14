@@ -1,38 +1,488 @@
-.App {
-  text-align: center;
+
+
+.navbar {
+    height: 60px !important;
+
+}
+.form-inline {
+    display: flex !important;
+    border-radius: 0%;
+    width: 700px !important;
+}
+.form-control {
+    height: 50px !important;
+    width: 600px !important;
+    border: 2px solid black !important;
+    font-size: larger !important;
+    border-radius: 2px !important;
+    outline: none !important;
+}
+.categories {
+    height: 35px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.linkLi {
+   font-size: larger !important;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active {
+    font-weight: bold;
+}
+.dropdown-item:hover {
+    background-color: transparent !important;
+    color: rgb(80, 192, 168) !important;
+}
+.form-control:focus {
+    border: 2px solid turquoise !important;
+}
+.btn {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 0% !important;
+    height: 50px !important;
+    width: 50px !important; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login {
+    color: black;
+    text-decoration-line: underline !important;
+    font-weight: bolder !important;
+    font-size: larger;
+    
+}
+.sell_btn {
+    border-radius: 20px !important;
+    font-size: larger;
+    background-color: white !important;
+    font-weight: bold;
+    width: 110px;
+    height: 45px;
+    border-top: 5px solid turquoise;
+    border-right: 5px solid rgb(43, 43, 209);
+    border-bottom: 5px solid rgb(43, 43, 209);
+    border-left: 5px solid yellow;
+    outline: none !important;
+  
+}
+::placeholder{
+    font-size: larger !important;
+}
+.selects {
+    font-size: larger !important;
+    width: 300px !important;
+    border: 2px solid black !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+
+}
+.selects:focus {
+    border: 2px solid turquoise !important;
+}
+.links {
+    float: right;
+    color: black;
+    text-decoration-line: underline !important;
+    font-size: medium;
+    font-weight: bold;
+}
+.con{
+    margin: 0 auto !important;
+    width: 1400px;
+}
+.card {
+    width: 250px !important;
+    height: 305px !important;
+}
+:any-link:hover {
+    text-decoration-line: none !important;
+    color: rgb(80, 192, 168) !important;
+    cursor: pointer !important;
+}
+.card-text {
+    margin: 0px !important;
+    color: black !important;
+    text-decoration-line: none !important;
+}
+.card-img {
+    margin: 0 auto !important;
+    width: 150px !important;
+    height: 170px !important;
+    margin-top: 8px !important;
+}
+.hart {
+    position: absolute;
+    right: 10px;
+}
+.featured{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 65px;
+    padding-left: 5px;
+    background-color: rgb(245, 241, 8);
+    color: black;
+}
+.post-date {
+    float: right;
+    position: absolute;
+    bottom: 5px !important;
+    right: 10px;
+}
+.location {
+    float: left !important;
+    position: absolute;
+    bottom: 5px !important; 
+    left: 5px;
+}
+.selling-card {
+    width: 260px !important;
+    height: 305px !important;
+    background-color: rgb(13, 134, 233) !important;
+    text-align: center !important;
+    color: white !important;
+}
+.start-selling-btn {
+    border: 2px solid white;
+    border-radius: 0px !important;
+    width: 95%;
+    height: 40px;
+    position: absolute;
+    bottom: 25px !important;
+    right: 5px;
+    background-color: transparent;
+    color: white;
+}
+.loadMoreBtn{
+    width: 110px;
+    height: 50px;
+    text-align: center !important;
+    background-color: transparent !important;
+    color: black !important;
+    border: 2px solid black !important;
+    font-weight: bold;
+    border-radius: 5px !important;
+}
+.loadMoreBtn:hover{
+    border: 5px solid black !important;
+}
+.footerImg{
+    margin-top: 140px !important;
+}
+.footerBtn{
+    border: 2px solid gray;
+    border-radius:100% !important;
+    width: 30px;
+    height: 30px;
+    text-align: center !important;
+    padding: 0 !important;
+   font-weight: bold;
+   color: gray;
+}
+.footerBtn:focus{
+    outline: none !important;
+}
+.footerLinkUl{
+    list-style: none;
+}
+.footerLink{
+    width: 40px;
+    display: inline-block !important;
+
+}
+.imgBtn{
+    height: 25px;
+    width: 90px;
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+.copyright_area{
+    height: 50px;
+    background-color: rgb(6, 51, 51);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.modal-content{
+    width: 400px !important;
+    height: 500px;
+    color: black !important;
+}
+.loginButton{
+    width: 100%;
+    height: 50px;
+    text-align: center !important;
+    background-color: transparent !important;
+    color: black !important;
+    border: 2px solid black !important;
+    font-weight: bold;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+.close:focus{
+outline: none !important;
+}
+.loginButton:hover{
+    border: 5px solid black !important;
+}
+.detailImg{
+    width: 98%;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 5px;
+}
+.description{
+    width: 98%;
+    height: 100px ;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 5px;
+}
+.detalPriceArea{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 5px;
+}
+.hartIcon {
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+}
+.shareIcon{
+    position: absolute;
+    right: 20px;   
+    font-weight: bold;
+}
+.uplodDate{
+    position: absolute;
+    right: 20px;   
+}
+.sellerDescription{
+    width: 100%;
+    height: 270px;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.sellerImg{
+    width: 70px;
+    height: 70px;
+    border: 1px solid grey;
+    border-radius: 100%;
+}
+.sellerName{
+    position: absolute;
+    left: 70px;
+    font-size: larger;
+    font-weight: bold;
+}
+.memberSince{
+    position: absolute;
+    left: 70px;
+    margin-top: 40px;
+    font-size: medium;
+}
+.chattSellerBtn{
+    width:90% ;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    border: 5px solid rgb(6, 51, 51);
+    border-radius: 5px;
+    background-color: rgb(6, 51, 51);
+    outline: none !important;
+}
+.chattSellerBtn:hover{
+    background-color: white;
+    color: rgb(6, 51, 51);
+}
+.postedInArea{
+    width: 100%;
+    height: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.postItemArea{
+    margin:  0 auto !important;
+    width: 900px !important;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 5px;
+}
+.postItemItem{
+    width: 450px !important;
+    height: 50px;
+    color:gray !important;
+    font-size: large !important;
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+}
+.postItemItem:hover{
+    background-color: rgba(0, 0, 0, 0.191) !important;
+    color: black !important;
+}
+.attributeInput{
+    width: 400px !important;
+    height: 45px !important;
+    border: 1px solid gray !important;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+.main{
+    margin-left: 50px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.attributeInput:focus {
+    border: 3px solid teal !important;
+}
+.DescriptionInput{
+    width: 400px !important;
+    height: 100px !important;
+    border: 1px solid gray !important;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+.DescriptionInput:focus {
+    border: 3px solid teal !important;
+}
+.getImgArea ul li{
+list-style: none !important;
+display: inline-block !important;
+width: 105px;
+}
+.getImg{
+    width: 100px !important;
+    height: 100px !important;
+    border: 2px solid black !important;
+    cursor: pointer !important;
+    background-color: transparent !important;  
+}
+#input-file {
+    display: none !important;
+    }
+.selector{
+    width: 400px !important;
+    height: 45px !important;
+    border: 1px solid gray !important;
+    border-radius: 5px !important;
+   outline: none !important;
+}
+.selector:focus{
+border: 2px solid teal !important;
+}
+.SellerImg{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+.SellerName{
+    position: absolute;
+    left: 35%;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 40px !important;
+}
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    /* display: none; */
+}
+.postBtn{
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+progress{
+width: 250px;
+height: 30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 600px) {
+    .navbar {
+        height: auto !important;
+    }
+    .form-inline {
+        display: none !important;
+    }
+    .selects {
+        display: none !important;
+    }
+    .dropdown-menu {
+        width: 280px !important;
+    }
+    .location{
+        width: 80%;
+    }
+   
+    .copyright_area{
+        height: 80px !important;
+    }
+    .container {
+        height: auto !important;
+    }
+    .card {
+        width: 100% !important;
+        margin-top: 10px;
+        height: 350px !important;
+    }
+    .card-img {
+        width: 100px !important;
+        margin-top: 25px !important;
+    }
+    .loadMoreBtn{
+        outline: none !important;
+    }
+    .modal-content{
+        width:340px !important ;
+        height: 450px !important ;
+    }
+    .detailImg{
+        width: 90% !important;
+        margin-left: 0px !important;
+        
+    }
+    .description{
+        width: 90% !important;
+        margin-left: 0px !important;
+        
+    }
+    .detalPriceArea{
+        margin-top: 50px !important;
+    }
+    iframe{
+        width: 90% !important;
+        margin-left: 0 !important;
+    }
+
+    .postItemArea{
+        width: 100% !important;
+    } 
+    .postItemItem{
+        width: 100% !important;
+    }
+   .main{
+       margin-left: 10px !important;
+   }
+    .attributeInput{
+        width: 330px !important;
+        margin-left: 0px !important;
+    }
+    .DescriptionInput{
+        width: 330px !important;
+        margin-left: 0px !important;
+    }
+    
+    .selector{
+        width: 330px !important;
+    margin-left: 0px !important;
+    }
+    .SellerName{
+    left: 40%;
+    margin-top: 30px !important;
+
+    }
 }
